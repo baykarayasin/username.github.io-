@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pflegedokumentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        .tab button {
+            background-color: #dfe6e9;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            font-weight: bold;
+            color: #2d3436;
+        }
+        .tab button:hover {
+            background-color: #b2bec3;
+        }
+        .tab button.active {
+            background-color: #74b9ff;
+            color: white;
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-top: none;
+            background-color: white;
+        }
+        h2 {
+            color: #0984e3;
+        }
+        p {
+            margin: 15px 0;
+        }
+        ul {
+            margin: 15px;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #dfe6e9;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Pflegedokumentation - Vollständige Inhalte</h1>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Definition')">1. Was bedeutet Dokumentation?</button>
+  <button class="tablinks" onclick="openTab(event, 'Warum')">2. Warum dokumentieren wir in der Pflege?</button>
+  <button class="tablinks" onclick="openTab(event, 'Ziele')">3. Ziele der Pflegedokumentation</button>
+  <button class="tablinks" onclick="openTab(event, 'System')">4. Dokumentationssystem</button>
+  <button class="tablinks" onclick="openTab(event, 'Formalien')">5. Formalien der Pflegedokumentation</button>
+  <button class="tablinks" onclick="openTab(event, 'Elektronisch')">6. Elektronische Dokumentationssysteme</button>
+</div>
+
+<!-- Sekme içerikleri -->
+
+<div id="Definition" class="tabcontent">
+  <h2>1. Was bedeutet Dokumentation / Pflegedokumentation?</h2>
+  <p><strong>Definition Duden:</strong> <span class="highlight">Dokumentation</span> bedeutet das Dokumentieren; Zusammenstellung und Nutzbarmachung von Dokumenten, Belegen und Materialien jeder Art. Diese können elektronisch, z. B. online, oder gedruckt vorliegen.</p>
+  <p><strong>Definition Dokument:</strong> Vom lateinischen <span class="highlight">documentum</span>, was Beweis bedeutet. Es ist eine Urkunde, die zur Belehrung und Erhellung über etwas dient.</p>
+</div>
+
+<div id="Warum" class="tabcontent">
+  <h2>2. Warum dokumentieren wir in der Pflege?</h2>
+  <p>Die Dokumentation erfasst, was getan wurde, was noch getan werden muss und wie das Wohlbefinden des Patienten gerade ist oder war. Sie gewährleistet eine fachgerechte Behandlung und sichert die Qualität und Beweiskraft der Pflege.</p>
+  
+  <p><strong>Fallbeispiel:</strong> Sie sind in der ambulanten Pflege tätig und nach drei Tagen Urlaub wieder bei Frau Schwaig. Die Tochter fragt nach der vom Arzt verordneten Salbe, aber Sie wissen nichts davon, weil es nicht dokumentiert wurde.</p>
+
+  <ul>
+    <li>Folgen: Unsichere Pflege, mögliche Verschlechterung des Zustands, fehlende Kommunikation.</li>
+    <li>Notwendigkeit der Dokumentation: Sicherstellung der Kontinuität der Pflege.</li>
+  </ul>
+</div>
+
+<div id="Ziele" class="tabcontent">
+  <h2>3. Ziele der Pflegedokumentation</h2>
+  <p><strong>a. Informations- und Kommunikationsmedium:</strong> Informationen umfassend, strukturiert und schnell abrufbar für interdisziplinäre Teams bereitstellen.</p>
+  <p><strong>b. Planungs- und Organisationshilfe:</strong> Eine nachvollziehbare und individuelle Pflegeplanung erstellen, um Zeit zu sparen und die Pflege zu zentralisieren.</p>
+  <p><strong>c. Qualitätssicherung:</strong> Einheitliche Pflege, bessere Zusammenarbeit und Prüfung der Pflegequalität durch Nachvollziehbarkeit.</p>
+  <p><strong>d. Abrechnung von Leistungen:</strong> Nicht dokumentierte Leistungen werden nicht bezahlt.</p>
+  <p><strong>e. Schriftliches Beweismittel:</strong> Rechtliche Nachweise und Erfüllung der gesetzlichen Verpflichtungen zur Dokumentation.</p>
+</div>
+
+<div id="System" class="tabcontent">
+  <h2>4. Dokumentationssystem</h2>
+  <p>Ein Dokumentationssystem strukturiert die Dokumentation und stellt sicher, dass Informationen schneller und eindeutiger weitergegeben werden können. Systeme sind oft auf die jeweilige Einrichtung zugeschnitten und umfassen standardisierte Formulare.</p>
+  
+  <ul>
+    <li>Stammblatt mit Personalien, Diagnose(n), Kontaktinformationen der Angehörigen</li>
+    <li>Kurvenblatt/Vitalzeichenblatt zur chronologischen Aufzeichnung von Werten</li>
+    <li>SIS/Pflegeplanungsblatt für geplante und durchgeführte Pflegemaßnahmen</li>
+    <li>Durchführungsnachweis mit Handzeichen der Pflegenden</li>
+  </ul>
+</div>
+
+<div id="Formalien" class="tabcontent">
+  <h2>5. Formalien der Pflegedokumentation</h2>
+  <p>Die Pflegedokumentation ist ein offizielles juristisches Dokument mit Urkundenstatus. Es erfordert:</p>
+  
+  <ul>
+    <li>Dokumentenechte Eintragungen (keine Bleistiftmarkierungen)</li>
+    <li>Fehleinträge sind durchzustreichen, nicht zu überkleben</li>
+    <li>Maßnahmen nur nach Durchführung dokumentieren</li>
+    <li>Lesbarkeit und Verständlichkeit müssen gewährleistet sein</li>
+    <li>Datenschutz beachten, keine unbefugten Zugriffe erlauben</li>
+  </ul>
+</div>
+
+<div id="Elektronisch" class="tabcontent">
+  <h2>6. Elektronische Dokumentationssysteme</h2>
+  <p>Elektronische Systeme bieten zahlreiche Vorteile wie Lesbarkeit, Zeitersparnis und bessere Vernetzung zwischen verschiedenen Bereichen (z. B. Labor, Röntgen). Sie sind jedoch auch abhängig von Strom und erfordern Schulungen für den Umgang.</p>
+  
+  <p><strong>Vergleich:</strong></p>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Vorteile Papier</th>
+      <th>Vorteile Elektronisch</th>
+    </tr>
+    <tr>
+      <td>Dokumentation auch ohne Strom möglich</td>
+      <td>Lesbar, zeitsparend, bessere Vernetzung</td>
+    </tr>
+    <tr>
+      <td>Kann direkt zum Patienten gebracht werden</td>
+      <td>Hilfe- und Erinnerungssysteme integriert</td>
+    </tr>
+  </table>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+</body>
+</html>
